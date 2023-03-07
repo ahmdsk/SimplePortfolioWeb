@@ -10,9 +10,9 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <section className={`${inter.className} md:container mx-auto flex justify-center py-20`}>
+    <section className={`${inter.className} md:container mx-auto xl:flex justify-center xl:py-20 p-4`}>
       <Menu />
-      <div className="w-1/2">
+      <div className="xl:w-1/2">
         {children}
       </div>
     </section>

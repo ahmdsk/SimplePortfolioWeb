@@ -4,7 +4,7 @@ import { MdShowChart } from 'react-icons/md'
 
 export default function HomeCard() {
     return (
-        <div className="border-2 border-gray-200 rounded-xl md:w-1/2 p-4 flex items-center gap-3">
+        <div className="border-2 border-gray-200 rounded-xl xl:w-1/2 p-4 flex items-center gap-3">
             <Image src="https://avatars.githubusercontent.com/u/85729997?v=4" alt="Profile" width={100} height={100} className="rounded-full p-2" />
             <div className="space-y-1">
                 <div className="flex items-center gap-2">

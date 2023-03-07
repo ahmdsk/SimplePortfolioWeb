@@ -26,7 +26,7 @@ export default function Menu() {
         <div className="">
             <Image src="/bread.svg" alt="Logo" width={50} height={50}></Image>
         </div>
-        <ul>
+        <ul className="min-[300px]:flex md:block">
             {links.map((link, index) => {
                 return <MenuLink name={link.name} url={link.url} key={index} />
             })}
